@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "name": "Áo Thun Basic",
+      "price": 200000,
+      "discountPrice": 150000,
+      "rating": 4.5,
+      "quantity": 50,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_f0753504764c47ba9e9ac1304699b831_master.jpg",
+      "description": "Áo thun basic với chất liệu cotton mềm mại, thoáng mát, phù hợp mặc hàng ngày.",
+      "colors": ["Trắng", "Đen", "Xám"]
+    },
+    {
+      "id": 2,
+      "name": "Áo Sơ Mi Trắng",
+      "price": 350000,
+      "discountPrice": 300000,
+      "rating": 4.8,
+      "quantity": 30,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_ed0f7cc30bde411b8569f8d1cf20cdb3_master.png",
+      "description": "Áo sơ mi trắng cổ điển, thiết kế thanh lịch, thích hợp cho công sở hoặc các buổi họp mặt.",
+      "colors": ["Trắng"]
+    },
+    {
+      "id": 3,
+      "name": "Áo Khoác Hoodie",
+      "price": 500000,
+      "discountPrice": 450000,
+      "rating": 4.7,
+      "quantity": 20,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/z6037798766622_c00f61f6edab96f494049654fdaf3870_7f962900432840f09c71d39d737c80a3_master.jpg",
+      "description": "Áo khoác hoodie giữ ấm, phong cách thể thao, phù hợp cho mùa đông.",
+      "colors": ["Xám", "Đen", "Xanh Navy"]
+    },
+    {
+      "id": 4,
+      "name": "Áo Polo Cá Sấu",
+      "price": 300000,
+      "discountPrice": 250000,
+      "rating": 4.6,
+      "quantity": 40,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/z6037793698566_696579d0d55a8b7db7d36a73d6806a87_a2a852f1e76747018afca2b02cd6350b_master.jpg",
+      "description": "Áo polo chất liệu thoáng khí, thiết kế lịch lãm dành cho nam giới.",
+      "colors": ["Đỏ", "Xanh Dương", "Trắng"]
+    },
+    {
+      "id": 5,
+      "name": "Quần thể thao Jogarbola",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_f0ee130cbdf64b99b82075c687813797_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 6,
+      "name": "Jogarbola basic",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_f0ee130cbdf64b99b82075c687813797_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 7,
+      "name": "Jogarbola basic",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 8,
+      "name": "Quần thể thao Jogarbola",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 9,
+      "name": "Quần thể thao Jogarbola",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 10,
+      "name": "Quần thể thao Jogarbola",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 11,
+      "name": "Quần thể thao Jogarbola",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 12,
+      "name": "Quần thể thao Jogarbola",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    }
+  ]
+  

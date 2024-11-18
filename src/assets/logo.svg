@@ -1,0 +1,47 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="140" fill="#f8f8f8" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Stylized suit silhouette -->
+  <path d="M150 60 
+           L180 90
+           L180 200
+           L150 240
+           L120 200
+           L120 90
+           Z" 
+        fill="#2c3e50"/>
+  
+  <!-- Collar details -->
+  <path d="M150 90
+           L165 110
+           L150 130
+           L135 110
+           Z"
+        fill="#f8f8f8"/>
+  
+  <!-- Button details -->
+  <circle cx="150" cy="150" r="4" fill="#f8f8f8"/>
+  <circle cx="150" cy="170" r="4" fill="#f8f8f8"/>
+  
+  <!-- Text path for company name -->
+  <path id="textPath" 
+        d="M40 150 A110 110 0 0 1 260 150" 
+        fill="none"/>
+  
+  <!-- Company name text -->
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    <textPath href="#textPath" textAnchor="middle" startOffset="50%">
+      GENTLEMAN STYLE
+    </textPath>
+  </text>
+  
+  <!-- Establishment year -->
+  <text x="150" y="200" 
+        font-family="Arial, sans-serif" 
+        font-size="14" 
+        text-anchor="middle" 
+        fill="#2c3e50">
+    EST. 2024
+  </text>
+</svg>

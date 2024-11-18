@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "name": "Áo Thun Basic",
+      "price": 200000,
+      "discountPrice": 150000,
+      "rating": 4.5,
+      "quantity": 50,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/z5869008282344_656b215878ec52c71ff588d1352bd81d_b8d8e9cdccb14d43a8e2acb10d3ba13f_master.jpg",
+      "description": "Áo thun basic với chất liệu cotton mềm mại, thoáng mát, phù hợp mặc hàng ngày.",
+      "colors": ["Trắng", "Đen", "Xám"]
+    },
+    {
+      "id": 2,
+      "name": "Áo Sơ Mi Trắng",
+      "price": 350000,
+      "discountPrice": 300000,
+      "rating": 4.8,
+      "quantity": 30,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_d78d46b5bfd4484e8fd9f3fd55f13402_master.png",
+      "description": "Áo sơ mi trắng cổ điển, thiết kế thanh lịch, thích hợp cho công sở hoặc các buổi họp mặt.",
+      "colors": ["Trắng"]
+    },
+    {
+      "id": 3,
+      "name": "Áo Khoác Hoodie",
+      "price": 500000,
+      "discountPrice": 450000,
+      "rating": 4.7,
+      "quantity": 20,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_588a94aea9c741de95c9aff923763202_master.png",
+      "description": "Áo khoác hoodie giữ ấm, phong cách thể thao, phù hợp cho mùa đông.",
+      "colors": ["Xám", "Đen", "Xanh Navy"]
+    },
+    {
+      "id": 4,
+      "name": "Áo Polo Cá Sấu",
+      "price": 300000,
+      "discountPrice": 250000,
+      "rating": 4.6,
+      "quantity": 40,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_b51388f3ea6444448568f96557c16315_master.png",
+      "description": "Áo polo chất liệu thoáng khí, thiết kế lịch lãm dành cho nam giới.",
+      "colors": ["Đỏ", "Xanh Dương", "Trắng"]
+    },
+    {
+      "id": 5,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_67052bb589bc4010aa49418e5c6e12a6_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 6,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/0624-01-xanh_6664bb11d3ee44d7afea64c191a0c730_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 7,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_b8d4f660f80448ec867d3b2e20663128_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 8,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_b8d4f660f80448ec867d3b2e20663128_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 9,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_b8d4f660f80448ec867d3b2e20663128_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 10,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_b8d4f660f80448ec867d3b2e20663128_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 11,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_b8d4f660f80448ec867d3b2e20663128_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    },
+    {
+      "id": 12,
+      "name": "Áo Len Cổ Lọ",
+      "price": 400000,
+      "discountPrice": 350000,
+      "rating": 4.9,
+      "quantity": 15,
+      "imageUrl": "https://product.hstatic.net/1000288768/product/1_b8d4f660f80448ec867d3b2e20663128_master.png",
+      "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
+      "colors": ["Be", "Xám", "Đen"]
+    }
+  ]
+  

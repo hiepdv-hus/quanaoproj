@@ -1,0 +1,105 @@
+.product-list {
+    font-family: Arial, sans-serif;
+  }
+
+  .product-title {
+    text-align: left;
+    font-size: 30px;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background: #e7e7e7;
+  }
+
+  .product-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .product-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px); 
+    border-color: rgba(128, 128, 128, 0.43); 
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .btn-add-to-cart {
+    background: #e7e7e7;
+    border-radius: 0;
+    margin-top: 15px;
+    font-weight: 600 !important;
+  }
+  
+  .btn-add-to-cart:hover {
+    background: gray;
+    color: #fff;
+  }
+
+  .product-details {
+    flex: 1;
+    text-align: center;
+  }
+  .product-details h2 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .product-price {
+    margin: 4px 0;
+    font-weight: bold;
+    text-decoration: line-through;
+  }
+  
+  .product-discount-price {
+    color: red;
+    padding-left: 10px;
+  }
+  
+  .product-rating {
+    margin: 4px 0;
+  }
+  
+  .product-description {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .product-colors {
+    margin: 8px 0;
+  }
+  
+  .color {
+    font-weight: bold;
+  }
+  
+  .product-quantity {
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  /* phân trang */
+  .pagination {
+    justify-content: end;
+    margin-top: 20px;
+  }
+  
+  .page-item.disabled .page-link {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+  }
