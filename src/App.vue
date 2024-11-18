@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import Shirt from "./components/Shirt/index.vue";
 import Pant from "./components/Pant/index.vue";
 import Logo from "./assets/logo.svg";
@@ -19,6 +19,7 @@ const password = ref("");
 // Các biến trạng thái cho modal
 const isLoginVisible = ref(false);
 const isRegisterVisible = ref(false);
+const isConfirm = ref(false);
 const accounts = ref(JSON.parse(localStorage.getItem("accounts")) || []);
 const currentUser = ref(null);
 const dangnhap = ref("dangnhap");
@@ -131,9 +132,25 @@ const togglePopover = () => {
 };
 
 const handleSearch = () => {
-  console.log('tempQuery.value', tempQuery.value);
-  
   searchQuery.value = tempQuery.value;
+};
+
+const handleConfirm = () => {
+  isConfirm.value = !isConfirm.value
+  isPopoverVisible.value = !isPopoverVisible.value;
+}
+// Tính tổng tiền
+const totalPrice = computed(() => {
+  return cart.value.reduce((total, item) => total + item.price * item.quantity, 0);
+});
+
+// Hàm xử lý thanh toán
+const processPayment = () => {
+  cartCount.value = 0
+  alert('Thanh toán thành công!');
+  cart.value = [];
+  saveCartToLocalStorage();
+  isConfirm.value = !isConfirm.value
 };
 </script>
 
@@ -165,6 +182,24 @@ const handleSearch = () => {
                 @click="changeTab('pant')"
               >
                 Quần
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                :class="{ active: currentTab === 'gioithieu' }"
+                @click="changeTab('gioithieu')"
+              >
+                Giới thiệu
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                :class="{ active: currentTab === 'lienhe' }"
+                @click="changeTab('lienhe')"
+              >
+                Liên hệ
               </button>
             </li>
           </ul>
@@ -238,7 +273,7 @@ const handleSearch = () => {
     </div>
 
 
-      <!-- Popover hiển thị danh sách sản phẩm -->
+      <!-- Popover hiển thị giỏ hàng sản phẩm -->
       <div v-if="isPopoverVisible" class="popover-container position-absolute">
         <p>Danh sách giỏ hàng</p>
         <div v-for="item in cart" :key="item.id" class="popover-item">
@@ -255,6 +290,44 @@ const handleSearch = () => {
             <i class="fa fa-trash-o" style="font-size: 24px; color: red"></i>
           </button>
         </div>
+        <button v-if="cart.length > 0" class="btn btn-add-to-cart w-100" @click="handleConfirm">Xác nhận thanh toán</button>
+      </div>
+    </div>
+
+    <!-- Hiển thị xác nhận thanh toán giỏ hàng -->
+    <div v-if="isConfirm" class="auth-overlay"></div>
+
+    <div v-if="isConfirm" class="auth-form" style="width: 50%;">
+      <h2>Xác nhận thanh toán</h2>
+      <div class="row">
+        <div class="col-md-7">
+          <div v-if="cart.length > 0">
+            <div v-for="item in cart" :key="item.id" class="popover-item">
+              <div class="popover-left align-items-center">
+                <div class="popover-image">
+                  <img :src="item.imageUrl" alt="product image" />
+                </div>
+                  <h5 class="pt-1">{{ item.name }}</h5>
+                  <p class="pt-3">{{ item.price }} VND</p>
+              </div>
+            </div>
+            <div class="total-price">
+              <h4>Tổng tiền: {{ totalPrice }} VND</h4>
+            </div>
+            <button class="mt-4" @click="processPayment">Xác nhận thanh toán</button>
+          </div>
+          <div v-else>
+            <p>Giỏ hàng của bạn hiện tại trống.</p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <h5>Địa chỉ</h5>
+          <textarea class="form-control" placeholder="Vui lòng nhập" rows="4"></textarea>
+          <input class="form-control" placeholder="Nhập mã khuyến mãi (nếu có)" rows="4"></input>
+        </div>
+      </div>
+      <div class="text-end mt-4">
+        <button style="width: 70px;" class="btn btn-secondary" @click="isConfirm = !isConfirm">Đóng</button>
       </div>
     </div>
 
@@ -290,6 +363,24 @@ const handleSearch = () => {
         </div>
         <div v-if="currentTab === 'pant'" class="tab-pane active">
           <Pant :searchQuery="searchQuery" @add-to-cart="addToCart" />
+        </div>
+        <div v-if="currentTab === 'gioithieu'" class="tab-pane active">
+          <div>
+            <h4>Giới thiệu</h4>
+            <p>
+              Với sự phát triển của ngành công nghiệp thời trang Việt Nam, việc sử dụng nội dung chất lượng cao như content bán quần áo đã trở thành một cách hiệu quả để tiếp cận và thu hút khách hàng. Bằng cách cung cấp hướng dẫn mix đồ, chia sẻ xu hướng thời trang, và bí quyết chăm sóc quần áo, các shop thời trang có thể tạo dựng lòng tin và tăng doanh số bán hàng. Hãy tận dụng những xu hướng thời trang mùa Xuân Hè và mùa Thu Đông để tạo ra nội dung hấp dẫn, thu hút và phù hợp với nhu cầu người tiêu dùng
+              Bạn muốn tham khảo các mẫu content bán quần áo hay để gia tăng tỉ lệ tương tác cũng như tỉ lệ chuyển đổi cho doanh nghiệp thì bài viết này dành cho bạn. Dưới đây ABC Digi gợi ý cho bạn 15+ ý tưởng content bán quần áo cũng như các mẫu content có sẵn để bạn tham khảo nhanh chóng.
+            </p>
+          </div>
+        </div>
+        <div v-if="currentTab === 'lienhe'" class="tab-pane active">
+          <div>
+            <h4>Bản đồ cửa hàng</h4>
+            <p>
+              Khách hàng có thể tìm kiếm và đo khoảng cách ngay tại trang liên hệ thay vì phải mở Google Map và thực hiện các thao tác mất thời gian. Ngoài trụ sở chính, bạn cũng cần ghim địa chỉ các chi nhánh để khách hàng chủ động theo dõi.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1051250207915!2d105.85000457476916!3d21.028479287789214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac69f861af3f%3A0x331250d72cd2fa28!2zSOG7kyBHxrDGoW0gKEhvYcyAbiBLacOqzIFtKQ!5e0!3m2!1svi!2s!4v1731950608173!5m2!1svi!2s" width="100%" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
       </div>
     </div>
