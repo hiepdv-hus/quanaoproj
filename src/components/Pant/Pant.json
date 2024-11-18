@@ -8,7 +8,9 @@
       "quantity": 50,
       "imageUrl": "https://product.hstatic.net/1000288768/product/1_f0753504764c47ba9e9ac1304699b831_master.jpg",
       "description": "Áo thun basic với chất liệu cotton mềm mại, thoáng mát, phù hợp mặc hàng ngày.",
-      "colors": ["Trắng", "Đen", "Xám"]
+      "colors": ["Trắng", "Đen", "Xám"],
+      "sales": 200,
+      "releaseDate": "2024-11-17"
     },
     {
       "id": 2,
@@ -19,7 +21,9 @@
       "quantity": 30,
       "imageUrl": "https://product.hstatic.net/1000288768/product/1_ed0f7cc30bde411b8569f8d1cf20cdb3_master.png",
       "description": "Áo sơ mi trắng cổ điển, thiết kế thanh lịch, thích hợp cho công sở hoặc các buổi họp mặt.",
-      "colors": ["Trắng"]
+      "colors": ["Trắng"],
+      "sales": 300,
+      "releaseDate": "2024-03-15"
     },
     {
       "id": 3,
@@ -30,7 +34,9 @@
       "quantity": 20,
       "imageUrl": "https://product.hstatic.net/1000288768/product/z6037798766622_c00f61f6edab96f494049654fdaf3870_7f962900432840f09c71d39d737c80a3_master.jpg",
       "description": "Áo khoác hoodie giữ ấm, phong cách thể thao, phù hợp cho mùa đông.",
-      "colors": ["Xám", "Đen", "Xanh Navy"]
+      "colors": ["Xám", "Đen", "Xanh Navy"],
+      "sales": 250,
+      "releaseDate": "2024-02-15"
     },
     {
       "id": 4,
@@ -41,7 +47,9 @@
       "quantity": 40,
       "imageUrl": "https://product.hstatic.net/1000288768/product/z6037793698566_696579d0d55a8b7db7d36a73d6806a87_a2a852f1e76747018afca2b02cd6350b_master.jpg",
       "description": "Áo polo chất liệu thoáng khí, thiết kế lịch lãm dành cho nam giới.",
-      "colors": ["Đỏ", "Xanh Dương", "Trắng"]
+      "colors": ["Đỏ", "Xanh Dương", "Trắng"],
+      "sales": 200,
+      "releaseDate": "2024-02-15"
     },
     {
       "id": 5,
@@ -52,7 +60,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_f0ee130cbdf64b99b82075c687813797_master.png",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 200,
+      "releaseDate": "2024-07-25"
     },
     {
       "id": 6,
@@ -63,7 +73,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_f0ee130cbdf64b99b82075c687813797_master.png",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 100,
+      "releaseDate": "2024-01-15"
     },
     {
       "id": 7,
@@ -74,7 +86,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 200,
+      "releaseDate": "2024-06-15"
     },
     {
       "id": 8,
@@ -85,7 +99,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 50,
+      "releaseDate": "2024-05-15"
     },
     {
       "id": 9,
@@ -96,7 +112,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 200,
+      "releaseDate": "2024-11-18"
     },
     {
       "id": 10,
@@ -107,7 +125,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 200,
+      "releaseDate": "2024-11-16"
     },
     {
       "id": 11,
@@ -118,7 +138,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 200,
+      "releaseDate": "2024-02-15"
     },
     {
       "id": 12,
@@ -129,7 +151,9 @@
       "quantity": 15,
       "imageUrl": "https://product.hstatic.net/1000288768/product/3_1eef9e716cc14109b74963a65076c8c4_master.jpg",
       "description": "Áo len cổ lọ giữ ấm tốt, phù hợp mặc vào mùa đông.",
-      "colors": ["Be", "Xám", "Đen"]
+      "colors": ["Be", "Xám", "Đen"],
+      "sales": 200,
+      "releaseDate": "2024-02-15"
     }
   ]
   
